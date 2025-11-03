@@ -1,0 +1,132 @@
+Project Title: “Sokón Residence – Luxury Serviced Apartments Web App”
+
+Project Description:
+Build a responsive, fully-deployable web application for a luxury serviced-apartments brand (“Sokón Residence”). The site should match the structure, styling, and content flow of the reference site —in other words, an almost identical clone in layout and features, but using a modern stack (React/Next.js or Angular) with clean, maintainable code, styled with Tailwind CSS (or your preferred utility-CSS framework). It should be production-ready: routing, SEO meta tags, image gallery, contact form, integrations, etc.
+
+Tech Stack Requirements:
+
+Frontend: React with Next.js (or Angular if preferred) for SSR/SEO.
+
+Styling: Tailwind CSS (you already use it) together with any necessary custom CSS.
+
+Forms: Contact form (e.g., Contact Us page) that can submit (even if dummy-backend) and proper validation.
+
+Routing: Pages for Home, About Us, Our Destinations, Be Our Partner, Contact (mirroring the reference nav).
+
+Images & Galleries: A hero banner, a gallery section for destinations/floorplans, features section with icons.
+
+Responsive design: Mobile, tablet, desktop. The sticky navigation, parallax or subtle animations for text/hero section.
+
+Deployment ready: Include a README explaining how to deploy (e.g., on Vercel, Netlify, or Replit’s own hosting), environment variables (e.g., contact email), assets folder, etc.
+
+SEO & meta tags: Title, description, Open Graph tags per page.
+
+Accessibility: Basic a11y compliance (alt text on images, proper semantic HTML).
+
+Optional (bonus): A light CMS/data-source (could be JSON/Markdown) for “Our Destinations” list so it can be updated easily.
+
+Page Structure & Content (based on reference):
+
+Home Page
+
+Hero section: Large background image, overlay text: “Luxury Serviced Apartments” + subtitle like “Where Lavishness Meets Tranquility in Perfect Harmony”.
+
+Intro section: “At a glance” section describing the brand.
+
+Featured destinations/floorplans: A grid listing units (name, rental price, sale price, size, rooms).
+
+Facilities/features section: Icons/images for features (e.g., multi size, bathrooms, bedrooms, pools, park, interior, furnished, parking, heating, beach).
+
+Review or “Meet our team” section with profile cards.
+
+Contact snippet/footer: Address, phone, email, opening hours, social icons.
+
+About Us Page
+
+Brand story: company founding years, mission, values (as visible on reference).
+
+Additional imagery.
+
+Our Destinations Page
+
+Grid or list of destination items (e.g., “Rehab City, New Cairo – Vanilla Apartment”, “Maadi, Cairo – Hil­ton Nile F19-B-4-IV”, etc.).
+
+Each item clickable to a detail page (optional) or open modal with more images/info.
+
+Be Our Partner Page
+
+A call to action for partners, a form or contact prompt.
+
+Contact Page
+
+Contact form (name, email, message).
+
+Map embed (Google Map) for address.
+
+Address, phone, email, opening hours.
+
+Styling & UX Notes:
+
+Navigation bar: fixed or sticky at top, transparent background initially that transitions on scroll.
+
+Hero: full width, maybe parallax or simple fade-in animation.
+
+Use Tailwind CSS utility classes for spacing, typography, responsiveness.
+
+Use high-quality images (you can use placeholder images or free ones for now).
+
+Animations: subtle fade or slide animations for sections as they scroll into view.
+
+Theme: luxury feel — dark/navy accent or deep tones, gold or subtle accent color. Clean minimal-lux design.
+
+Deployment & Code Quality:
+
+The code should follow best practices: component-based architecture, separation of concerns, self‐documenting.
+
+Provide instructions in README: how to install, run locally, build for production, deploy (Vercel/Netlify/Replit).
+
+Include sample .env (if needed) for contact form backend endpoint (can be mocked).
+
+Use Git (commit history) – you can initialize a repository.
+
+Deliverables:
+
+A link to the Replit project (or GitHub repo) with everything ready.
+
+All pages working, navigation working, mobile responsive.
+
+Placeholders for actual content/images which you (or the client) can replace later.
+
+Optional: simple CMS or data file for destinations so non-developers can update the list.
+
+Additional instructions for Replit:
+
+Create a new Next.js (or Angular) app.
+
+Install Tailwind CSS and set up config.
+
+Create a components/ folder: NavBar, Hero, FeatureGrid, DestinationCard, TeamMemberCard, ContactForm.
+
+Create pages/ folder: index.tsx, about.tsx, destinations.tsx, partner.tsx, contact.tsx.
+
+Use public/ for static assets (images, icons).
+
+For styling, use Tailwind plus custom CSS if needed.
+
+For animations, you may use framer-motion or simple CSS transitions.
+
+Set up routing and meta tags for SEO.
+
+For the contact form: on submit, you can either show a success message (simulate submission) or integrate with a simple backendless service (e.g., Formspree) or Replit’s built‐in functions.
+
+Test responsiveness in mobile view, ensure nav collapses to hamburger menu.
+
+Ensure deployment is done: one click “Deploy” or provide link.
+
+Tone & Copywriting:
+Use the same tone as the reference site: luxurious, calm, refined. You can replicate headings/phrases (like “Lavishness Meets Tranquility”, “Where Elegance Meets Everyday Splendor”) or adjust for your branding.
+
+Final Note:
+The goal is not simply to copy every pixel exactly, but to produce a web app that mirrors the overall layout, features, flow, and feel of the reference site, while being built with maintainable and modern tech. Once the architecture is in place, you (or your client) can replace content, images, and text to personalise.
+
+Please build the project and deliver the link to the deployed app and code repository.
