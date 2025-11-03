@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useLocation } from 'wouter';
-import heroImage from '@assets/generated_images/Hero_luxury_apartment_interior_82aea2df.png';
+const heroImage = '/assets/generated_images/Hero_luxury_apartment_interior_82aea2df.png';
 
 export function Hero() {
   const [, setLocation] = useLocation();

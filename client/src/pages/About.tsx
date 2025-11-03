@@ -2,8 +2,8 @@ import { motion } from 'framer-motion';
 import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
 import { Target, Heart, Shield, Award } from 'lucide-react';
-import aboutHeroImage from '@assets/generated_images/Modern_apartment_building_exterior_1bb1aacb.png';
-import teamImage from '@assets/generated_images/Professional_team_photo_dc9d5aa5.png';
+const aboutHeroImage = '/assets/generated_images/Modern_apartment_building_exterior_1bb1aacb.png';
+const teamImage = '/assets/generated_images/Professional_team_photo_dc9d5aa5.png';
 
 export default function About() {
   const values = [
@@ -94,7 +94,7 @@ export default function About() {
             transition={{ duration: 0.6 }}
           >
             <p>
-              Sokón Residence was born from a simple yet powerful vision: to create living spaces 
+              SkyLine Residence was born from a simple yet powerful vision: to create living spaces 
               that transcend the ordinary and elevate the everyday. Founded in 2009, we recognized 
               a growing need for serviced apartments that combined the luxury of high-end hotels 
               with the comfort and flexibility of a true home.
@@ -106,7 +106,7 @@ export default function About() {
               of over 50 residences across the city's most coveted locations.
             </p>
             <p>
-              Today, Sokón Residence stands as a testament to unwavering commitment to quality, 
+              Today, SkyLine Residence stands as a testament to unwavering commitment to quality, 
               innovation, and personalized service. We've hosted over 2,500 discerning residents, 
               from executives and diplomats to families seeking a refined lifestyle in Egypt's 
               vibrant capital.
@@ -226,7 +226,7 @@ export default function About() {
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 From our property managers and concierge staff to our maintenance team and 
-                customer service representatives, every member of the Sokón Residence family 
+                customer service representatives, every member of the SkyLine Residence family 
                 is committed to making your stay extraordinary.
               </p>
             </motion.div>

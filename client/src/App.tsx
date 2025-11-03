@@ -8,6 +8,7 @@ import About from "@/pages/About";
 import Destinations from "@/pages/Destinations";
 import Partner from "@/pages/Partner";
 import Contact from "@/pages/Contact";
+import PropertyDetails from "@/pages/PropertyDetails";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -16,6 +17,7 @@ function Router() {
       <Route path="/" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/destinations" component={Destinations} />
+      <Route path="/properties/:id" component={PropertyDetails} />
       <Route path="/partner" component={Partner} />
       <Route path="/contact" component={Contact} />
       <Route component={NotFound} />

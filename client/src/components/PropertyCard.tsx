@@ -2,6 +2,7 @@ import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Bed, Bath, Maximize2, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { Link } from 'wouter';
 import type { Property } from '@shared/schema';
 
 interface PropertyCardProps {
@@ -74,10 +75,14 @@ export function PropertyCard({ property, index = 0 }: PropertyCardProps) {
             )}
           </div>
 
-          <button className="w-full flex items-center justify-between px-4 py-3 bg-muted/50 rounded-md hover-elevate transition-all group/btn" data-testid={`button-view-details-${property.id}`}>
+          <Link 
+            href={`/properties/${property.id}`}
+            className="w-full flex items-center justify-between px-4 py-3 bg-muted/50 rounded-md hover-elevate transition-all group/btn hover:bg-muted/80"
+            data-testid={`button-view-details-${property.id}`}
+          >
             <span className="text-sm font-medium text-foreground">View Details</span>
             <ArrowRight className="h-4 w-4 text-muted-foreground group-hover/btn:translate-x-1 transition-transform" />
-          </button>
+          </Link>
         </div>
       </Card>
     </motion.div>

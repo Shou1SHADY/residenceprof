@@ -123,7 +123,7 @@ export default function Partner() {
               Partnership Benefits
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Discover the advantages of partnering with Sokón Residence
+              Discover the advantages of partnering with SkyLine Residence
             </p>
           </motion.div>
 
@@ -269,7 +269,7 @@ export default function Partner() {
                       <FormLabel className="text-sm font-medium text-foreground">Partnership Interest</FormLabel>
                       <FormControl>
                         <Textarea
-                          placeholder="Tell us about your company and your interest in partnering with Sokón Residence..."
+                          placeholder="Tell us about your company and your interest in partnering with SkyLine Residence..."
                           className="min-h-40 resize-none"
                           {...field}
                           data-testid="input-message"

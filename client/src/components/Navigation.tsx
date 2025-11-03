@@ -51,7 +51,7 @@ export function Navigation() {
           >
             <div className="text-2xl font-serif font-bold tracking-tight">
               <span className={`${isScrolled ? 'text-foreground' : 'text-white'} transition-colors`}>
-                Sokón
+                SkyLine
               </span>
               <span className="text-primary-foreground"> Residence</span>
             </div>

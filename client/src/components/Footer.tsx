@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div>
             <div className="font-serif text-2xl font-bold mb-4">
-              Sokón <span className="text-foreground/80">Residence</span>
+              SkyLine <span className="text-foreground/80">Residence</span>
             </div>
             <p className="text-primary-foreground/80 text-sm mb-6 leading-relaxed">
               Experience unparalleled luxury living in Cairo's most prestigious locations. 
@@ -98,8 +98,8 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-primary-foreground/70" />
-                <a href="mailto:info@sokonresidence.com" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm" data-testid="link-email">
-                  info@sokonresidence.com
+                <a href="mailto:info@skylineresidences.com" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm" data-testid="link-email">
+                  info@skylineresidences.com
                 </a>
               </li>
             </ul>
@@ -136,7 +136,7 @@ export function Footer() {
         <div className="pt-8 border-t border-primary-foreground/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-primary-foreground/70 text-sm">
-              © {new Date().getFullYear()} Sokón Residence. All rights reserved.
+              © {new Date().getFullYear()} SkyLine Residence. All rights reserved.
             </p>
             <div className="flex gap-6">
               <a href="#" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm" data-testid="link-privacy">

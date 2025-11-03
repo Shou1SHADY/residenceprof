@@ -44,7 +44,7 @@ export default function Home() {
               </h2>
               <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  Since 2009, Sokón Residence has been redefining luxury living in Cairo's most 
+                  Since 2009, SkyLine Residence has been redefining luxury living in Cairo's most 
                   prestigious neighborhoods. Our collection of meticulously designed serviced 
                   apartments represents the pinnacle of contemporary elegance and comfort.
                 </p>

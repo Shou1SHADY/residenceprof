@@ -19,7 +19,7 @@ export default function Contact() {
     {
       icon: Mail,
       title: 'Email Us',
-      details: ['info@sokonresidence.com', 'support@sokonresidence.com', 'partnerships@sokonresidence.com'],
+      details: ['info@skylineresidences.com', 'support@skylineresidences.com', 'partnerships@skylineresidences.com'],
     },
     {
       icon: Clock,
@@ -130,7 +130,7 @@ export default function Contact() {
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Sokón Residence Location"
+                    title="SkyLine Residence Location"
                   />
                 </div>
 

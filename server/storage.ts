@@ -34,9 +34,9 @@ export class MemStorage implements IStorage {
     this.seedData();
   }
 
-  private seedData() {
+  private async seedData() {
     // Seed sample properties
-    const sampleProperties: InsertProperty[] = [
+    const sampleProperties: Omit<Property, 'id' | 'createdAt'>[] = [
       {
         name: "Vanilla Apartment",
         location: "Rehab City, New Cairo",
@@ -46,7 +46,7 @@ export class MemStorage implements IStorage {
         size: 180,
         bedrooms: 3,
         bathrooms: 2,
-        image: "/attached_assets/generated_images/Luxury_bedroom_interior_24da5850.png",
+        image: "/assets/generated_images/Luxury_bedroom_interior_24da5850.png",
         featured: "true",
       },
       {
@@ -58,7 +58,7 @@ export class MemStorage implements IStorage {
         size: 200,
         bedrooms: 3,
         bathrooms: 3,
-        image: "/attached_assets/generated_images/Luxury_kitchen_interior_50342f99.png",
+        image: "/assets/generated_images/Luxury_kitchen_interior_50342f99.png",
         featured: "true",
       },
       {
@@ -70,7 +70,7 @@ export class MemStorage implements IStorage {
         size: 250,
         bedrooms: 4,
         bathrooms: 4,
-        image: "/attached_assets/generated_images/Hero_luxury_apartment_interior_82aea2df.png",
+        image: "/assets/generated_images/Hero_luxury_apartment_interior_82aea2df.png",
         featured: "true",
       },
       {
@@ -82,7 +82,7 @@ export class MemStorage implements IStorage {
         size: 220,
         bedrooms: 4,
         bathrooms: 3,
-        image: "/attached_assets/generated_images/Rooftop_pool_amenity_76940a51.png",
+        image: "/assets/generated_images/Rooftop_pool_amenity_76940a51.png",
         featured: "true",
       },
       {
@@ -94,7 +94,7 @@ export class MemStorage implements IStorage {
         size: 65,
         bedrooms: 1,
         bathrooms: 1,
-        image: "/attached_assets/generated_images/Luxury_bathroom_interior_2cc7de56.png",
+        image: "/assets/generated_images/Luxury_bathroom_interior_2cc7de56.png",
         featured: "false",
       },
       {
@@ -106,8 +106,8 @@ export class MemStorage implements IStorage {
         size: 150,
         bedrooms: 2,
         bathrooms: 2,
-        image: "/attached_assets/generated_images/Modern_apartment_building_exterior_1bb1aacb.png",
-        featured: "true",
+        image: "/assets/generated_images/Luxury_fitness_center_c4fd52da.png",
+        featured: "false",
       },
       {
         name: "Oasis Residence",
@@ -118,7 +118,7 @@ export class MemStorage implements IStorage {
         size: 140,
         bedrooms: 2,
         bathrooms: 2,
-        image: "/attached_assets/generated_images/Luxury_fitness_center_c4fd52da.png",
+        image: "/assets/generated_images/Luxury_fitness_center_c4fd52da.png",
         featured: "false",
       },
       {
